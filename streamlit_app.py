@@ -20,8 +20,6 @@ def load_lottie_animation(file_path):
 # Function to apply snowfall effect
 def run_fall_animation1():
     rain(emoji="🍰", font_size=20, falling_speed=5, animation_length="infinite")
-
-def run_fall_animation2():
     rain(emoji="🍫", font_size=20, falling_speed=5, animation_length="infinite")
 
 # Function to get the name from query parameters
@@ -35,7 +33,6 @@ st.set_page_config(page_title="Happy Birthday", page_icon="🎂")
 
 # Run snowfall animation
 run_fall_animation1()
-run_fall_animation2()
 
 # Apply custom CSS
 with open(CSS_FILE) as f:
