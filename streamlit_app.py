@@ -19,7 +19,7 @@ def load_lottie_animation(file_path):
 
 # Function to apply snowfall effect
 def run_fall_animation1():
-    rain(emoji="🍰", font_size=20, falling_speed=6, animation_length="infinite")
+    rain(emoji="🍰", font_size=20, falling_speed=5, animation_length="infinite")
 
 def run_fall_animation2():
     rain(emoji="🍫", font_size=20, falling_speed=4, animation_length="infinite")
