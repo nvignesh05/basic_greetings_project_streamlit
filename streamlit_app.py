@@ -20,6 +20,7 @@ def load_lottie_animation(file_path):
 # Function to apply snowfall effect
 def run_fall_animation():
     rain(emoji="🍰", font_size=20, falling_speed=5, animation_length="infinite")
+    rain(emoji="🍫", font_size=20, falling_speed=5, animation_length="infinite")
 
 
 # Function to get the name from query parameters
