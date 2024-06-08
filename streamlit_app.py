@@ -14,8 +14,8 @@ def load_lottie_animation(file_path):
         return json.load(f)
 # to apply effect of falling
 def run_falling_animation():
-    rain(emoji="🍰",font_size=20, folling_speed=5,animation_lenght='infinite')
-    rain(emoji="🍫",font_size=20, folling_speed=5,animation_lenght='infinite')
+    rain(emoji="🍰",font_size=20, falling_speed=5,animation_lenght='infinite')
+    rain(emoji="🍫",font_size=20, falling_speed=5,animation_lenght='infinite')
 #to display name
 def get_person_name():
     query_parmas=st.experimental_get_query_params()
