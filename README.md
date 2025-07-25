@@ -4,4 +4,4 @@
 <br><hr>
 <pre>
 You can change greetings by changing the name
-' https://greetingsproject-nzpvna6gkcoyzyzh3kdappz.streamlit.app/?name= <i>enterhere</i> '</pre>
+' https://greetingsproject-nzpvna6gkcoyzyzh3kdappz.streamlit.app/?name=<i><u>enterhere</u></i> '</pre>
